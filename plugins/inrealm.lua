@@ -448,13 +448,13 @@ end
  
 return {
   patterns = {
-    "^[ ](creategroup) (.*)$",
+    "^[!](creategroup) (.*)$",
     "^[ ](setabout) (%d+) (.*)$",
     "^[ ](setrules) (%d+) (.*)$",
     "^[ ](setname) (%d+) (.*)$",
-        "^[ ](lock) (%d+) (.*)$",
-    "^[ ](unlock) (%d+) (.*)$",
-    "^[ ](setting) (%d+)$",
+        "^(lock) (%d+) (.*)$",
+    "^(unlock) (%d+) (.*)$",
+    "^[](setting) (%d+)$",
         "^[ ](wholist)$",
         "^[ ](who)$",
     "^[ ](addadmin) (.*)$", -- sudoers only
