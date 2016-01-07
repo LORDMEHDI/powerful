@@ -210,6 +210,7 @@ function create_config( )
     "inpm",
     "banhammer",
     "stats",
+    "antla",
     "anti_spam",
     "owners",
     "arabic_lock",
@@ -224,7 +225,7 @@ function create_config( )
     disabled_channels = {},
     realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
-    about_text = [[فعلا هیچ
+    about_text = [[farsi nashnakht
 ]],
     help_text = [[
 Commands list :
